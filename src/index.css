@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.typeanimation,
+.aboutme,
+.skills,
+.contacts {
+    font-family: 'Krona One', sans-serif;
+}
+
+.gray-scale-hover:hover {
+    filter: grayscale(100%);
+}
