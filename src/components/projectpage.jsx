@@ -23,7 +23,7 @@ const portfolio = [
     {
         logo: images.LogoGithubJect,
         alt: "Github Logo",
-        link: "https://github.com/chaliyapornsts",
+        link: "https://github.com/chaliyapornsts/portfolio-chaliyaporn-",
     },
 ];
 
