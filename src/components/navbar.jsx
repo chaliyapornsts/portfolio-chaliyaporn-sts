@@ -41,12 +41,14 @@ const NavBar = () => {
         <div className="flex fixed bg-gray-800 w-full h-28 z-10">
             <nav className="flex flex-col justify-between lg:flex-row items-start lg:items-center mx-8 text-white py-8">
                 <div className="flex w-full justify-between">
-                    <div className="flex fixed top-8">
+                    <div className="flex fixed top-8 mr-auto">
                         <a href="#home">
                             <img
-                                className="h-auto max-h-12 w-full"
+                                className="h-12 w-auto"
                                 src={images.IconDark}
                                 alt="icon dark"
+                                height={12}
+                                width={245}
                             />
                         </a>
                     </div>
