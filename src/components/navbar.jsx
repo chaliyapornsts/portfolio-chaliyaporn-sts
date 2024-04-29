@@ -89,16 +89,15 @@ const NavBar = () => {
 
                 {/* Mobile Menu */}
                 {!isMenuOpen ? (
-                    <ul className="flex fixed top-[-400px] right-0 flex-col lg:flex-row gap-10 items-start font-semibold bg-gray-900 my-4 pt-5 pb-6 px-5 lg:hidden w-full transition-all duration-500 ease-in blur-sm">
-                        {navbar.map((item, index) => (
-                            <li key={index}>
-                                <a href={item.href}>{item.name}</a>
-                            </li>
-                        ))}
+                    <ul className="flex fixed top-[-400px] right-0 flex-col lg:flex-row gap-10 items-start font-semibold bg-gray-900 my-4 pt-5 pb-6 px-5 lg:hidden w-full transition-all duration-500 ease-in blur-sm">                        {navbar.map((item, index) => (
+                        <li key={index}>
+                            <a href={item.href}>{item.name}</a>
+                        </li>
+                    ))}
                         <Contact />
                     </ul>
                 ) : (
-                    <ul className="flex fixed -top-5 right-0 flex-col lg:flex-row gap-10 items-start font-semibold bg-gray-900 my-4 pt-24 pb-10 px-10 lg:hidden w-full transition-all duration-500 ease-in drop-shadow-2xl">
+                    <ul className="flex fixed top-16 right-0 flex-col lg:flex-row gap-10 items-start font-semibold bg-gray-900 my-4 pt-10 pb-6 px-5 lg:hidden w-full transition-all duration-500 ease-in drop-shadow-2xl">
                         {navbar.map((item, index) => (
                             <li key={index}>
                                 <a href={item.href}>{item.name}</a>
