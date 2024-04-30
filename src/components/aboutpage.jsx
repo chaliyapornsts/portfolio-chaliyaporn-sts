@@ -78,7 +78,7 @@ const aboutpage = () => {
                     <ul className="list-inside list-disc text-white">
                         <li>
                             <a
-                                href="https://drive.google.com/file/d/1idpCuIkC9uSHOkbSl0CRVeLNi2ryEi1m/view?usp=sharing"
+                                href="https://www.canva.com/design/DAGD2zoo6Do/rBgoV9_-56QZhMZINvI13Q/view?utm_content=DAGD2zoo6Do&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                                 className="underline"
                                 target="_blank"
                             >
