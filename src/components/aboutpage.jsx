@@ -10,12 +10,20 @@ const logos = [
         title: "CSS",
     },
     {
+        image: images.LogoTypeScript,
+        title: "TypeScript",
+    },
+    {
         image: images.LogoJavascript,
         title: "JavaScript",
     },
     {
         image: images.LogoSqlite,
         title: "SQLite",
+    },
+    {
+        image: images.LogoDocker,
+        title: "Docker",
     },
     {
         image: images.LogoGit,
@@ -36,6 +44,10 @@ const logos = [
     {
         image: images.LogoNodejs,
         title: "NodeJS",
+    },
+    {
+        image: images.LogoUIkit,
+        title: "UIkit",
     },
     {
         image: images.LogoBootstrap,
@@ -66,10 +78,10 @@ const aboutpage = () => {
                     height={450}
                 />
                 <div className="flex flex-col lg:pl-16 p-5">
-                    <h2 className="font-semibold text-2xl mb-4">Chaliyaporn Suttisak | Full Stack Developer</h2>
+                    <h2 className="font-semibold text-2xl mb-4">Chaliyaporn Suttisak</h2>
                     <p className="mb-8">Equipped with practical knowledge and hands-on experience, I am confident
                         in my ability to contribute effectively to software development projects. My comprehensive
-                        skill set includes proficiency in HTML, CSS, JavaScript, SQL, Git, Bootstrap, and Tailwind.
+                        skill set includes proficiency in HTML, CSS, TypeScript, JavaScript, SQL, Git, Docker, UIkit, Bootstrap, and Tailwind.
                         Moreover, my specialization in both front-end and back-end development, coupled with expertise
                         in designing MERN stacks and UIs using Figma, positions me as a versatile and capable
                         Junior Software Developer. I am eager to apply my skills in creating compelling and user-friendly
@@ -78,7 +90,7 @@ const aboutpage = () => {
                     <ul className="list-inside list-disc text-white">
                         <li>
                             <a
-                                href="https://www.canva.com/design/DAGD2zoo6Do/rBgoV9_-56QZhMZINvI13Q/view?utm_content=DAGD2zoo6Do&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                                href="https://www.canva.com/design/DAGPhNstqgE/7IcgU6dKoCyqpnLL46hodg/view?utm_content=DAGPhNstqgE&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                                 className="underline"
                                 target="_blank"
                             >
@@ -97,7 +109,7 @@ const aboutpage = () => {
                         {logos.map((logo, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col justify-center items-center m-5 gap-3 w-[100px] md:w-[150px] lg:w-[200px] hover:scale-150 duration-200"
+                                className="flex flex-col justify-center items-center m-5 gap-3 w-[100px] md:w-[150px] lg:w-[250px] hover:scale-150 duration-200"
                             >
                                 <img
                                     src={logo.image}

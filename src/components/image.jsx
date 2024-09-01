@@ -21,29 +21,35 @@ import HiFineJect from "../assets/project/hiFine-project.png"
 import PortFai from "../assets/project/portfolio-chaliyaporn.png"
 import LogoLink from "../assets/logo/logo-link.svg"
 import LogoGithubJect from "../assets/logo/logo-github-ject.svg"
+import LogoTypeScript from "../assets/logo/logo-typescript.svg"
+import LogoDocker from "../assets/logo/logo-docker.svg"
+import LogoUIkit from "../assets/logo/logo-uikit.svg"
 
 export default {
-    IconDark,
-    IconMenu,
-    IconClose,
-    LogoLinkedin,
-    LogoGithub,
-    Me,
-    LogoHtml,
-    LogoCss,
-    LogoJavascript,
-    LogoSqlite,
-    LogoGit,
-    LogoMongodb,
-    LogoExpress,
-    LogoReact,
-    LogoNodejs,
-    LogoBootstrap,
-    LogoTailwind,
-    LogoFigma,
-    TypingAnime,
-    HiFineJect,
-    PortFai,
-    LogoLink,
-    LogoGithubJect,
-  };
+  IconDark,
+  IconMenu,
+  IconClose,
+  LogoLinkedin,
+  LogoGithub,
+  Me,
+  LogoHtml,
+  LogoCss,
+  LogoJavascript,
+  LogoSqlite,
+  LogoGit,
+  LogoMongodb,
+  LogoExpress,
+  LogoReact,
+  LogoNodejs,
+  LogoBootstrap,
+  LogoTailwind,
+  LogoFigma,
+  TypingAnime,
+  HiFineJect,
+  PortFai,
+  LogoLink,
+  LogoGithubJect,
+  LogoTypeScript,
+  LogoDocker,
+  LogoUIkit
+};
