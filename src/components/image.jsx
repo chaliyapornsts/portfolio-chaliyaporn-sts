@@ -17,8 +17,6 @@ import LogoBootstrap from "../assets/logo/logo-bootstrap.svg"
 import LogoTailwind from "../assets/logo/logo-tailwind.svg"
 import LogoFigma from "../assets/logo/logo-figma.svg"
 import TypingAnime from "../assets/project/typing-anime.gif"
-import HiFineJect from "../assets/project/hiFine-project.png"
-import PortFai from "../assets/project/portfolio-chaliyaporn.png"
 import LogoLink from "../assets/logo/logo-link.svg"
 import LogoGithubJect from "../assets/logo/logo-github-ject.svg"
 import LogoTypeScript from "../assets/logo/logo-typescript.svg"
@@ -45,8 +43,6 @@ export default {
   LogoTailwind,
   LogoFigma,
   TypingAnime,
-  HiFineJect,
-  PortFai,
   LogoLink,
   LogoGithubJect,
   LogoTypeScript,

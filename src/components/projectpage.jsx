@@ -52,7 +52,7 @@ const ProjectPage = () => {
                 <div className="flex p-10 flex-col lg:flex-row md:items-center lg:pb-10">
                     <img
                         className="flex relative lg:-top-10 cursor-pointer rounded-xl hover:scale-105 duration-500"
-                        src="./src/assets/project/typing-anime.gif"
+                        src={images.TypingAnime}
                         alt="Image Fai"
                     />
                     <div className="flex flex-col lg:pl-16 p-5">
